@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/jpg" href="../logo.jpg">
+    <title>XP48 | heure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="theme"><img id="theme" class="theme" onclick="theme()" src="./theme1.svg"></div>
+    <div onclick="display()" class="display"><u>Changer l'affichage</u></div>
+    <div id="heure" class="heure"></div>
+    <div id="clock" class="clock">
+        <div class="cadran">
+            <div id="aiguille h" class="aiguille h"></div>
+            <div id="aiguille m" class="aiguille m"></div>
+            <div id="aiguille s" class="aiguille s"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+    <div class="date"></div>
+    <div onclick="ecran()" class="ecran"><img class="full" src="./fullscreen.svg" alt="logo plein ecran"></div>
+    
+    
+    <script src="main.js"></script> 
+</body>
+</html>
